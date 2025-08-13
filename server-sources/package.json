@@ -1,0 +1,26 @@
+{
+  "name": "appmetrica-mcp",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server for Yandex AppMetrica integration",
+  "private": true,
+  "type": "module",
+  "bin": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "watch": "tsx watch src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.11.0",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.10",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}

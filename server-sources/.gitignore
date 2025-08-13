@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+.DS_Store
+# Credential-related files
+*.key
+*.pem
+*.p12
+*.pfx
+config/credentials.json
+config/secrets.json
+.env.local
+.env.production
+.env.staging
