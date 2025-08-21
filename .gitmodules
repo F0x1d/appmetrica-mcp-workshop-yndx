@@ -1,0 +1,3 @@
+[submodule "TravelSchedule"]
+	path = TravelSchedule
+	url = https://github.com/NickPuchko/TravelSchedule
