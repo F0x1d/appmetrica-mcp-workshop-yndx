@@ -1,0 +1,19 @@
+{
+	"mcpServers": {
+		"appmetrica-mcp": {
+            		"alwaysAllow": [],
+            		"args": [
+                		"--prefix",
+                		".",
+                		"start"
+            		],
+            		"command": "npm",
+            		"disabled": false,
+            		"env": {
+                		"APPMETRICA_OAUTH_TOKEN": "y0__xDziZStCBjG3Tkg49TjkxSUX3_SBgVWgDyVKZyNxOyS3JBZIg",
+                		"APPMETRICA_APPLICATION_ID": "4774162"
+            		},
+            		"timeout": 300
+        	}
+	}
+}
